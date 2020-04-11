@@ -17,6 +17,14 @@ public class PreencherFormTest extends BaseTestFw {
         HomeTask home = new HomeTask(driver);
 
         home.verificaHome();
+        home.verificaTextHome();
+        home.verificaUsername();
+        home.verificaPassword();
+        home.verificaTextAreaComment();
+        home.verificaCheckboxItems();
+        home.verificaRadioItems();
+        home.verificaMultipleSelectValues();
+        home.verificaDropdown();
 
     }
 }
