@@ -1,78 +1,52 @@
 package Tasks;
 
 import PageObjects.HomePage;
+import PageObjects.ResultPage;
 import org.openqa.selenium.WebDriver;
 
-import static java.lang.Thread.sleep;
 import static org.junit.Assert.assertEquals;
-import static org.junit.Assert.assertTrue;
 
 public class HomeTask {
 
 
         private WebDriver driver;
         private HomePage page;
+        private ResultPage resultPage;
 
         public HomeTask(WebDriver driver){
 
         this.driver=driver;
         page = new HomePage(this.driver);
+        resultPage = new ResultPage(this.driver);
         }
 
-        public void verificaHome() throws InterruptedException {
+    public void preencherFormulario () {
+        page.homeUsername().click();
+        page.homeUsername().sendKeys("Gui");
+        page.homePassword().click();
+        page.homePassword().sendKeys("123");
+        page.homeTextAreaComment().click();
+        page.homeTextAreaComment().clear();
+        page.homeTextAreaComment().sendKeys("Comentário Aleatório");
+        page.homeCheckboxItems().click();
+        page.homeRadioItems().click();
+        page.homeMultipleSelectValues().click();
+        page.homeDropdown().click();
+        page.clickSubmit().click();
+    }
 
-            String label = page.homeTextLabel().getText();
-            sleep(5000);
-            assertEquals(label, "Basic HTML Form Example");
-
-
+        public void verificaResultUsername () {
+            String username = resultPage.resultUsername().getText();
+            assertEquals(username, "Gui");
         }
 
-        public void verificaTextHome () throws InterruptedException {
-            String textHome = page.homeText().getText();
-            sleep(5000);
-            assertEquals(textHome, "HTML uses form elements with sub input, label, textarea, select and option elements. This form is formatted using a table element. Submitting a form will POST the information to another part of the application.");
+        public void verificaResultPassword () {
+            String password = resultPage.resultPassword().getText();
+            assertEquals(password, "123");
         }
 
-        public void verificaUsername () throws InterruptedException {
-            String username = page.homeUsername().getText();
-            sleep(5000);
-            assertEquals(username,"");
-        }
-
-        public void verificaPassword () throws InterruptedException {
-            String password = page.homePassword().getText();
-            sleep(5000);
-            assertEquals(password,"");
-        }
-
-        public void verificaTextAreaComment () throws InterruptedException {
-            String textAreaComment = page.homeTextAreaComment().getText();
-            sleep(5000);
-            assertEquals(textAreaComment, "Comments...");
-        }
-
-        public void verificaCheckboxItems () throws InterruptedException {
-            boolean checkboxItems = page.homeCheckboxItems().isEnabled();
-            sleep(5000);
-            assertTrue(checkboxItems);
-        }
-
-        public void verificaRadioItems () throws InterruptedException {
-            boolean radioItems = page.homeRadioItems().isEnabled();
-            sleep(5000);
-            assertTrue(radioItems);
-        }
-
-        public void verificaMultipleSelectValues () throws InterruptedException {
-            boolean multipleSelectValues = page.homeMultipleSelectValues().isSelected();
-            sleep(5000);
-            assertTrue(multipleSelectValues);
-        }
-
-        public void verificaDropdown () throws InterruptedException {
-            boolean dropdown = page.homeDropdown().isSelected();
-            sleep(5000);
-            assertTrue(dropdown);
+        public void verificaResultComments () {
+            String comments = resultPage.resultComments().getText();
+            assertEquals(comments, "Comentário Aleatório");
         }
 }

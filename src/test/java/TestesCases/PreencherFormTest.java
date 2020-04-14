@@ -5,8 +5,6 @@ import Tasks.HomeTask;
 import org.junit.Test;
 import org.openqa.selenium.WebDriver;
 
-import static org.junit.Assert.*;
-
 public class PreencherFormTest extends BaseTestFw {
 
     private WebDriver driver = this.getDriver();
@@ -16,15 +14,10 @@ public class PreencherFormTest extends BaseTestFw {
 
         HomeTask home = new HomeTask(driver);
 
-        home.verificaHome();
-        home.verificaTextHome();
-        home.verificaUsername();
-        home.verificaPassword();
-        home.verificaTextAreaComment();
-        home.verificaCheckboxItems();
-        home.verificaRadioItems();
-        home.verificaMultipleSelectValues();
-        home.verificaDropdown();
+        home.preencherFormulario();
 
+        home.verificaResultUsername();
+        home.verificaResultPassword();
+        home.verificaResultComments();
     }
 }

@@ -39,11 +39,11 @@ public class HomePage {
         }
 
         public WebElement homeCheckboxItems () {
-            return this.driver.findElement(By.xpath("//div[@class='centered']//input[@name='checkboxes[]' and @value='cb3']"));
+            return this.driver.findElement(By.xpath("//div[@class='centered']//input[@name='checkboxes[]' and @value='cb1']"));
         }
 
         public WebElement homeRadioItems () {
-            return this.driver.findElement(By.xpath("//div[@class='centered']//input[@name='radioval' and @value='rd2']"));
+            return this.driver.findElement(By.xpath("//div[@class='centered']//input[@name='radioval' and @value='rd3']"));
         }
 
         public WebElement homeMultipleSelectValues () {
@@ -51,8 +51,10 @@ public class HomePage {
         }
 
         public WebElement homeDropdown () {
-            return this.driver.findElement(By.xpath("//div[@class='centered']//select[@name='dropdown']//option[@value='dd3']"));
+            return this.driver.findElement(By.xpath("//div[@class='centered']//select[@name='dropdown']//option[@value='dd6']"));
         }
 
-
+        public WebElement clickSubmit () {
+            return this.driver.findElement(By.xpath("//div[@class='centered']//input[@type='submit']"));
+        }
 }

@@ -1,15 +1,55 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c9819115-a94e-40c0-a0f0-bf2957db7562" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+    <list default="true" id="cc335c3c-a70e-4faa-88d0-6a3f860c5f49" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_code_findbugs_jsr305_1_3_9.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_code_gson_gson_2_8_5.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_errorprone_error_prone_annotations_2_1_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_guava_guava_25_0_jre.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_j2objc_j2objc_annotations_1_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_squareup_okhttp3_okhttp_3_11_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_squareup_okio_okio_1_14_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_codec_commons_codec_1_10.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_io_commons_io_2_6.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_logging_commons_logging_1_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_github_bonigarcia_webdrivermanager_3_7_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__junit_junit_4_12.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__net_bytebuddy_byte_buddy_1_8_15.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_commons_commons_compress_1_18.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_commons_commons_exec_1_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_commons_commons_lang3_3_8_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_httpcomponents_httpclient_4_5_6.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_httpcomponents_httpcore_4_4_10.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_checkerframework_checker_compat_qual_2_0_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_codehaus_mojo_animal_sniffer_annotations_1_14.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hamcrest_hamcrest_core_1_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_jsoup_jsoup_1_11_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_rauschig_jarchivelib_1_0_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_seleniumhq_selenium_selenium_api_3_141_59.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_seleniumhq_selenium_selenium_chrome_driver_3_141_59.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_seleniumhq_selenium_selenium_edge_driver_3_141_59.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_seleniumhq_selenium_selenium_firefox_driver_3_141_59.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_seleniumhq_selenium_selenium_ie_driver_3_141_59.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_seleniumhq_selenium_selenium_java_3_141_59.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_seleniumhq_selenium_selenium_opera_driver_3_141_59.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_seleniumhq_selenium_selenium_remote_driver_3_141_59.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_seleniumhq_selenium_selenium_safari_driver_3_141_59.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_seleniumhq_selenium_selenium_support_3_141_59.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_slf4j_api_1_7_25.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/main.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/PageObjects/ResultPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/test.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.name" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dictionaries/franciellev.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/uiDesigner.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Aula6_Automacao.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Aula6_Automacao.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/PageObjects/HomePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/PageObjects/HomePage.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/Tasks/HomeTask.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Tasks/HomeTask.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/TestesCases/PreencherFormTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/TestesCases/PreencherFormTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/META-INF/Aula6_Automacao.kotlin_module" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -19,23 +59,14 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Enum" />
         <option value="Class" />
-        <option value="JUnit4 Test Class" />
       </list>
     </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="MavenImportPreferences">
-    <option name="importingSettings">
-      <MavenImportingSettings>
-        <option name="importAutomatically" value="true" />
-      </MavenImportingSettings>
-    </option>
-  </component>
-  <component name="ProjectId" id="1aB5SxskpB9oIKOU3FHXuLisIhN" />
+  <component name="ProjectId" id="1aVR7n9Q2t3pcZEpVJwFQ0bQam6" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
@@ -44,40 +75,16 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
-    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4" value="" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
-  </component>
-  <component name="RecentsManager">
-    <key name="CreateTestDialog.RecentsKey">
-      <recent name="TestesCases" />
-    </key>
-    <key name="CreateTestDialog.Recents.Supers">
-      <recent name="" />
-    </key>
   </component>
   <component name="RunManager">
-    <configuration name="All tests" type="JUnit" factoryName="JUnit">
-      <module name="FormSimples" />
+    <configuration name="All in Aula6_Automacao" type="JUnit" factoryName="JUnit" nameIsGenerated="true">
+      <module name="Aula6_Automacao" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
       <option name="ALTERNATIVE_JRE_PATH" value="1.8.0_231" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="" />
       <option name="METHOD_NAME" value="" />
       <option name="TEST_OBJECT" value="package" />
-      <option name="PARAMETERS" value="" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration default="true" type="JUnit" factoryName="JUnit">
-      <module name="Aula6_Automacao" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
-      <option name="ALTERNATIVE_JRE_PATH" value="1.8" />
-      <option name="MAIN_CLASS_NAME" value="" />
-      <option name="METHOD_NAME" value="" />
-      <option name="TEST_OBJECT" value="class" />
       <option name="PARAMETERS" value="" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -101,79 +108,62 @@
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="c9819115-a94e-40c0-a0f0-bf2957db7562" name="Default Changelist" comment="" />
-      <created>1586196149267</created>
+      <changelist id="cc335c3c-a70e-4faa-88d0-6a3f860c5f49" name="Default Changelist" comment="" />
+      <created>1586818609270</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1586196149267</updated>
+      <updated>1586818609270</updated>
     </task>
     <servers />
   </component>
   <component name="WindowStateProjectService">
-    <state x="564" y="111" key="#All_in_FormSimples" timestamp="1586631389616">
+    <state x="564" y="123" key="#All_in_Aula6_Automacao" timestamp="1586821389486">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="564" y="111" key="#All_in_FormSimples/0.0.1920.1040/-1920.3.1920.1040@0.0.1920.1040" timestamp="1586631389616" />
-    <state x="564" y="111" width="795" height="818" key="#All_in_FormSimples_(1)" timestamp="1586631438983">
+    <state x="564" y="123" key="#All_in_Aula6_Automacao/0.0.1920.1040/-1920.3.1920.1040@0.0.1920.1040" timestamp="1586821389486" />
+    <state x="564" y="123" key="#All_in_test" timestamp="1586821309685">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="564" y="111" width="795" height="818" key="#All_in_FormSimples_(1)/0.0.1920.1040/-1920.3.1920.1040@0.0.1920.1040" timestamp="1586631438983" />
-    <state x="564" y="144" key="#PreencherFormTest.popularForm" timestamp="1586631373938">
+    <state x="564" y="123" key="#All_in_test/0.0.1920.1040/-1920.3.1920.1040@0.0.1920.1040" timestamp="1586821309685" />
+    <state x="564" y="123" key="#All_in_test_(1)" timestamp="1586821344414">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="564" y="144" key="#PreencherFormTest.popularForm/0.0.1920.1040/-1920.3.1920.1040@0.0.1920.1040" timestamp="1586631373938" />
-    <state x="564" y="154" key="#PreencherFormTest_(1)" timestamp="1586631360433">
+    <state x="564" y="123" key="#All_in_test_(1)/0.0.1920.1040/-1920.3.1920.1040@0.0.1920.1040" timestamp="1586821344414" />
+    <state x="564" y="166" key="#PreencherFormTest" timestamp="1586821335188">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="564" y="154" key="#PreencherFormTest_(1)/0.0.1920.1040/-1920.3.1920.1040@0.0.1920.1040" timestamp="1586631360433" />
-    <state x="617" y="-906" key="#Unnamed" timestamp="1586212564219">
-      <screen x="60" y="-1080" width="1920" height="1040" />
-    </state>
-    <state x="617" y="-906" key="#Unnamed/0.0.1366.728/60.-1080.1920.1040@60.-1080.1920.1040" timestamp="1586212564219" />
-    <state x="414" y="174" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1586631607573">
+    <state x="564" y="156" key="#PreencherFormTest.popularForm" timestamp="1586821379152">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="474" y="-906" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1366.728/60.-1080.1920.1040@60.-1080.1920.1040" timestamp="1586212578235" />
-    <state x="414" y="174" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1040/-1920.3.1920.1040@0.0.1920.1040" timestamp="1586631607573" />
-    <state x="749" y="-777" key="#com.intellij.ide.util.TreeClassChooserDialog" timestamp="1586212543305">
-      <screen x="60" y="-1080" width="1920" height="1040" />
-    </state>
-    <state x="749" y="-777" key="#com.intellij.ide.util.TreeClassChooserDialog/0.0.1366.728/60.-1080.1920.1040@60.-1080.1920.1040" timestamp="1586212543305" />
-    <state x="803" y="408" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog" timestamp="1586631234633">
+    <state x="564" y="156" key="#PreencherFormTest.popularForm/0.0.1920.1040/-1920.3.1920.1040@0.0.1920.1040" timestamp="1586821379152" />
+    <state x="564" y="166" key="#PreencherFormTest/0.0.1920.1040/-1920.3.1920.1040@0.0.1920.1040" timestamp="1586821335188" />
+    <state x="414" y="174" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1586821371375">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="803" y="408" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog/0.0.1920.1040/-1920.3.1920.1040@0.0.1920.1040" timestamp="1586631234633" />
-    <state width="1323" height="18" key="GridCell.Tab.0.bottom" timestamp="1586274872211">
-      <screen x="0" y="0" width="1366" height="728" />
+    <state x="414" y="174" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1040/-1920.3.1920.1040@0.0.1920.1040" timestamp="1586821371375" />
+    <state x="493" y="27" key="CommitChangelistDialog2" timestamp="1586818769320">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1323" height="18" key="GridCell.Tab.0.bottom/0.0.1366.728/60.-1080.1920.1040@0.0.1366.728" timestamp="1586274872211" />
-    <state width="1877" height="18" key="GridCell.Tab.0.bottom/0.0.1366.728/60.-1080.1920.1040@60.-1080.1920.1040" timestamp="1586219993098" />
-    <state width="1323" height="18" key="GridCell.Tab.0.center" timestamp="1586274872211">
-      <screen x="0" y="0" width="1366" height="728" />
+    <state x="493" y="27" key="CommitChangelistDialog2/0.0.1920.1040/-1920.3.1920.1040@0.0.1920.1040" timestamp="1586818769320" />
+    <state x="740" y="260" key="FileChooserDialogImpl" timestamp="1586821230316">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1323" height="18" key="GridCell.Tab.0.center/0.0.1366.728/60.-1080.1920.1040@0.0.1366.728" timestamp="1586274872211" />
-    <state width="1877" height="18" key="GridCell.Tab.0.center/0.0.1366.728/60.-1080.1920.1040@60.-1080.1920.1040" timestamp="1586219993098" />
-    <state width="1323" height="18" key="GridCell.Tab.0.left" timestamp="1586274872211">
-      <screen x="0" y="0" width="1366" height="728" />
+    <state x="740" y="260" key="FileChooserDialogImpl/0.0.1920.1040/-1920.3.1920.1040@0.0.1920.1040" timestamp="1586821230316" />
+    <state width="1877" height="239" key="GridCell.Tab.0.bottom" timestamp="1586825444752">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1323" height="18" key="GridCell.Tab.0.left/0.0.1366.728/60.-1080.1920.1040@0.0.1366.728" timestamp="1586274872211" />
-    <state width="1877" height="18" key="GridCell.Tab.0.left/0.0.1366.728/60.-1080.1920.1040@60.-1080.1920.1040" timestamp="1586219993098" />
-    <state width="1323" height="18" key="GridCell.Tab.0.right" timestamp="1586274872211">
-      <screen x="0" y="0" width="1366" height="728" />
+    <state width="1877" height="239" key="GridCell.Tab.0.bottom/0.0.1920.1040/-1920.3.1920.1040@0.0.1920.1040" timestamp="1586825444752" />
+    <state width="1877" height="239" key="GridCell.Tab.0.center" timestamp="1586825444752">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1323" height="18" key="GridCell.Tab.0.right/0.0.1366.728/60.-1080.1920.1040@0.0.1366.728" timestamp="1586274872211" />
-    <state width="1877" height="18" key="GridCell.Tab.0.right/0.0.1366.728/60.-1080.1920.1040@60.-1080.1920.1040" timestamp="1586219993098" />
-    <state x="521" y="-918" key="SettingsEditor" timestamp="1586218340696">
-      <screen x="60" y="-1080" width="1920" height="1040" />
+    <state width="1877" height="239" key="GridCell.Tab.0.center/0.0.1920.1040/-1920.3.1920.1040@0.0.1920.1040" timestamp="1586825444752" />
+    <state width="1877" height="239" key="GridCell.Tab.0.left" timestamp="1586825444752">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="521" y="-918" key="SettingsEditor/0.0.1366.728/60.-1080.1920.1040@60.-1080.1920.1040" timestamp="1586218340696" />
-    <state x="791" y="-858" key="com.intellij.testIntegration.createTest.CreateTestDialog" timestamp="1586212709891">
-      <screen x="60" y="-1080" width="1920" height="1040" />
+    <state width="1877" height="239" key="GridCell.Tab.0.left/0.0.1920.1040/-1920.3.1920.1040@0.0.1920.1040" timestamp="1586825444752" />
+    <state width="1877" height="239" key="GridCell.Tab.0.right" timestamp="1586825444752">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="791" y="-858" key="com.intellij.testIntegration.createTest.CreateTestDialog/0.0.1366.728/60.-1080.1920.1040@60.-1080.1920.1040" timestamp="1586212709891" />
-    <state x="676" y="-299" key="run.anything.popup" timestamp="1586211634200">
-      <screen x="60" y="-1080" width="1920" height="1040" />
-    </state>
-    <state x="676" y="-299" key="run.anything.popup/0.0.1366.728/60.-1080.1920.1040@60.-1080.1920.1040" timestamp="1586211634200" />
+    <state width="1877" height="239" key="GridCell.Tab.0.right/0.0.1920.1040/-1920.3.1920.1040@0.0.1920.1040" timestamp="1586825444752" />
   </component>
 </project>
