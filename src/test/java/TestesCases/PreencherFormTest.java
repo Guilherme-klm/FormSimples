@@ -16,6 +16,7 @@ public class PreencherFormTest extends BaseTestFw {
 
         home.preencherFormulario();
 
+        // Testes dos resultados
         home.verificaResultUsername();
         home.verificaResultPassword();
         home.verificaResultComments();

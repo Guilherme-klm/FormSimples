@@ -38,11 +38,19 @@ public class HomePage {
             return this.driver.findElement(By.xpath("//div[@class='centered']//textarea[@name='comments']"));
         }
 
-        public WebElement homeCheckboxItems () {
+        public WebElement homeCheckboxItemsValueThree () {
+            return this.driver.findElement(By.xpath("//div[@class='centered']//input[@name='checkboxes[]' and @value='cb3']"));
+        }
+
+        public WebElement homeCheckboxItemsValueOne () {
             return this.driver.findElement(By.xpath("//div[@class='centered']//input[@name='checkboxes[]' and @value='cb1']"));
         }
 
-        public WebElement homeRadioItems () {
+        public WebElement homeRadioItemsValueTwo () {
+            return this.driver.findElement(By.xpath("//div[@class='centered']//input[@name='radioval' and @value='rd2']"));
+        }
+
+        public WebElement homeRadioItemsValueThree () {
             return this.driver.findElement(By.xpath("//div[@class='centered']//input[@name='radioval' and @value='rd3']"));
         }
 

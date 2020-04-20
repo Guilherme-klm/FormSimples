@@ -20,19 +20,29 @@ public class HomeTask {
         resultPage = new ResultPage(this.driver);
         }
 
-    public void preencherFormulario () {
+    public void preencherFormulario () throws InterruptedException {
         page.homeUsername().click();
         page.homeUsername().sendKeys("Gui");
+        Thread.sleep(2000);
         page.homePassword().click();
         page.homePassword().sendKeys("123");
+        Thread.sleep(2000);
         page.homeTextAreaComment().click();
         page.homeTextAreaComment().clear();
+        Thread.sleep(2000);
         page.homeTextAreaComment().sendKeys("Comentário Aleatório");
-        page.homeCheckboxItems().click();
-        page.homeRadioItems().click();
+        page.homeCheckboxItemsValueThree().click();
+        Thread.sleep(2000);
+        page.homeCheckboxItemsValueOne().click();
+        page.homeRadioItemsValueTwo().click();
+        Thread.sleep(2000);
+        page.homeRadioItemsValueThree().click();
+        Thread.sleep(2000);
         page.homeMultipleSelectValues().click();
         page.homeDropdown().click();
+        Thread.sleep(2000);
         page.clickSubmit().click();
+        Thread.sleep(2000);
     }
 
         public void verificaResultUsername () {
