@@ -59,4 +59,30 @@ public class HomeTask {
             String comments = resultPage.resultComments().getText();
             assertEquals(comments, "Comentário Aleatório");
         }
+
+        public void verificaResultCheckbox () {
+            String checkbox = resultPage.resultCheckBox().getText();
+            assertEquals(checkbox, "cb3");
+        }
+
+        public void verificaRadioval () {
+            String radioval = resultPage.resultRadioval().getText();
+            assertEquals(radioval, "ms4");
+        }
+
+        public void verificaMultipleSelect () {
+            String multiple = resultPage.resultMultipleSelect().getText();
+            assertEquals(multiple, "ms4");
+        }
+
+        public void verificaDropdown () {
+            String dropdown = resultPage.resultDropdown().getText();
+            assertEquals(dropdown, "dd3");
+        }
+
+        public void verificaSubmit () {
+            String submit = resultPage.resultSubmit().getText();
+            assertEquals(submit, "submit");
+        }
+
 }

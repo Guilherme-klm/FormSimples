@@ -20,5 +20,10 @@ public class PreencherFormTest extends BaseTestFw {
         home.verificaResultUsername();
         home.verificaResultPassword();
         home.verificaResultComments();
+        home.verificaResultCheckbox();
+        home.verificaRadioval();
+        home.verificaMultipleSelect();
+        home.verificaDropdown();
+        home.verificaSubmit();
     }
 }

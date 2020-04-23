@@ -14,14 +14,34 @@ public class ResultPage {
     }
 
     public WebElement resultUsername () {
-        return this.driver.findElement(By.xpath("//div[@class='centered form-results']//li[@id='_valueusername']"));
+        return this.driver.findElement(By.xpath("//li[@id='_valueusername']"));
     }
 
     public WebElement resultPassword () {
-        return this.driver.findElement(By.xpath("//div[@class='centered form-results']//li[@id='_valuepassword']"));
+        return this.driver.findElement(By.xpath("//li[@id='_valuepassword']"));
     }
 
     public WebElement resultComments () {
-        return this.driver.findElement(By.xpath("//div[@class='centered form-results']//li[@id='_valuecomments']"));
+        return this.driver.findElement(By.xpath("//li[@id='_valuecomments']"));
+    }
+
+    public WebElement resultCheckBox () {
+        return this.driver.findElement(By.xpath("//li[@id='_valuecheckboxes0']"));
+    }
+
+    public WebElement resultRadioval () {
+        return this.driver.findElement(By.xpath("//li[@id='_valuesradioval']"));
+    }
+
+    public WebElement resultMultipleSelect () {
+        return this.driver.findElement(By.xpath("//li[@id='_valuemultipleselect0']"));
+    }
+
+    public WebElement resultDropdown () {
+        return this.driver.findElement(By.xpath("//li[@id='_valuedropdown']"));
+    }
+
+    public WebElement resultSubmit () {
+        return this.driver.findElement(By.xpath("//li[@id=_valuesubmitbutton']"));
     }
 }
